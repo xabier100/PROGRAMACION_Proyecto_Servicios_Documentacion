@@ -1,0 +1,91 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper]{geometry}
+\usepackage[myheadings]{fullpage}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{graphicx, wrapfig, subcaption, setspace, booktabs}
+\usepackage[T1]{fontenc}
+\usepackage[font=small, labelfont=bf]{caption}
+\usepackage{fourier}
+\usepackage[protrusion=true, expansion=true]{microtype}
+\usepackage[spanish]{babel}
+\usepackage{sectsty}
+\usepackage{url, lipsum}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{courier}
+\usepackage{ulem}
+\usepackage{spverbatim}
+\usepackage{multirow} %para las tablas
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{float}
+
+\usepackage{adjustbox}
+\usepackage{amsmath}
+
+\usepackage{listings} %For code in appendix
+\lstset
+{ %Formatting for code in appendix
+    language=Matlab,
+    basicstyle=\footnotesize,
+    numbers=left,
+    stepnumber=1,
+    showstringspaces=false,
+    tabsize=4,
+    breaklines=true,
+    breakatwhitespace=false,
+}
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\onehalfspacing
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+%-------------------------------------------------------------------------------
+% HEADER & FOOTER
+%-------------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\setlength\headheight{15pt}
+\fancyhead[R]{PROGRAMACIÓN}
+\fancyfoot[R]{\thepage}
+%-------------------------------------------------------------------------------
+% TITLE PAGE
+%-------------------------------------------------------------------------------
+
+\begin{document}
+
+\title{ \normalsize \textsc{PROGRAMACIÓN}
+		\\ [2.0cm]
+		\HRule{2pt} \\
+		\LARGE \textbf{\uppercase{Proiecto Proyectos}}
+		\HRule{2pt} \\ [0.5cm] \bigskip
+		\normalsize \today \vspace*{1\baselineskip}}
+
+\date{}
+
+\author{
+        \emph{Autores:} \\ \\
+		Xabier Garrote }
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+
+%--------------------------------------------------------------------% Las partes del documento de aqui en adelante ----------------------------------------------------------------------
+\section{Objetivo del programa}
+\section{Menu principal}
+\section{Menu clientes}
+\section{Menu servicios}
+\section{Manual de usuario del programa}
+El programa se compone de las siguientes partes:
+
+
+\end{document}
